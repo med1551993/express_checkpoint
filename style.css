@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+  position: relative;
+  height: 100vh;
+}
+.foot{
+  background-color: rgba(17, 17, 17, 0.873);
+  color:white;
+  height: 60px;
+  font-size: 15px;
+  display:flex;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+ 
+}
+span{
+margin: 0 auto;
+margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+.img{
+    margin-left:270px;
+    width:60vw;
+    object-fit:contain;
+    
+}
+.service{
+    margin: 75px 400px;
+}
